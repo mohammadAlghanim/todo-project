@@ -5,50 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About us</title>
+    <link rel="stylesheet" href="/testDesign.css">
+    <link rel="stylesheet" href="/testDesign.css">
 </head>
 <body>
     <header>
-        <h1>Dragon</h1>
-        <nav>
+        <div>
             <img src="/assets/images.png">
-            <a href="/">Home</a> |
-            <a href="/About.html">About us</a> 
-          </nav>
+          </div>
+            <nav>
+              <ul>
+                <li><a href="/">Home</a></li> |
+                <li><a href="/About.html">About us</a></li> 
+              </ul>
+              </nav>
 
     </header>
     <main>
         <br>
-        <section>
-            <img src="/assets/download.png">
-              <h1>About us</h1>
-              <h3>At The Dragon Company, we build comprehensive solutions to optimize business by identifying the core issues impacting your business.</h3>
+        
+            <section id="Message">
+                
+                <img src="/assets/download.png" id="img">
+                <h1>About us</h1>
+                <h3>At The Dragon Company, we build comprehensive solutions to optimize business by identifying the core issues impacting your business.</h3> 
+                   
+            </section>
+         
+        <center>
+            <section>
 
-        </section>
-        <section>
-            <form>
-                <label>Name</label>
-                <input type="text">
-                <br>
-                <label>Email</label>
-                <input type="Email">
-                <br>
-                <label>Message</label>
-                <textarea></textarea><br>
-                                              
-                   <button>submit</button>
-                   <input type="reset">
-             </form>
-             <br>
-  
-            
-        </section>
-
+                <div id="form">
+                <form>
+                    <label for="text">Name</label>
+                    <input type="text" name="Form" id="to">
+                    <br>
+                    <label>Email</label>
+                    <input type="Email">
+                    <br>
+                    <label>Message</label>
+                    <textarea></textarea><br>
+                                                  
+                       <button>submit</button>
+                       <input type="reset">
+                 </form>
+                 <br>
+      
+                </div>
+            </section>
+    
+        </center>
+        
     </main>
-    <footer>
-        <p>&copy;for dragon</p> 
-
-
-    </footer>
+    <footer id="foot">
+    
+        <div id="copy-rights">
+            <p> ©2022. All Rights Reserved</p>
+        </div>
+       
+        </footer>
     
 </body>
 </html>

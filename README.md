@@ -4,7 +4,7 @@
 -------
 ## How long did it take you to complete this assignment? And, before you started, how long did you think it would take you to complete this assignment? 
  ### Took me half an hour and I expected an hour
-![img](/assets/Untitled%20(1).png)
+![img](/assets/Untitled%20(3).png)
 
-![img](/assets/Untitled%20(2).png)
+![img](/assets/Untitled%20(4).png)
 
